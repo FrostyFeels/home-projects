@@ -1,0 +1,2497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &61152638213012822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084168685832858705}
+  - component: {fileID: 5840311588617574920}
+  - component: {fileID: 3320818929472399183}
+  - component: {fileID: 8647392366112261400}
+  m_Layer: 0
+  m_Name: Level 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084168685832858705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61152638213012822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5840311588617574920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61152638213012822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b33ef3dbf48fc44aa51f985d931c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _manager: {fileID: 0}
+  _areaXSize: 10
+  _areaYSize: 3
+  _areaZSize: 10
+  Areas:
+  - GridSpot: {x: 0, y: 0}
+    Layers:
+    - LayerIndex: 0
+      Tiles:
+      - Pos: {x: 0, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 3
+      - Pos: {x: 1, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 2, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 3, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 4, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 5, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 6, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 7, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 8, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 9, y: 0, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 3
+      - Pos: {x: 0, y: 0, z: 1}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 1}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 2}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 2}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 3}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 3}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 4}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 4}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 5}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 5}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 6}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 6}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 7}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 7}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 8}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 0, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 0, z: 8}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 3
+      - Pos: {x: 1, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 2, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 3, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 4, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 5, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 6, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 7, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 8, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 5
+      - Pos: {x: 9, y: 0, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 1
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c2bca1f89cdce804e8ef401d8bbbe2ef, type: 2}
+        neighbours: 3
+    - LayerIndex: 1
+      Tiles:
+      - Pos: {x: 0, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+      - Pos: {x: 1, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 2, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 3, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 4, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 5, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 6, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 7, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 8, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 9, y: 1, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+      - Pos: {x: 0, y: 1, z: 1}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 1}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 2}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 2}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 3}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 3}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 4}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 4}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 5}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 5}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 6}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 6}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 7}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 7}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 8}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 1, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 1, z: 8}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+      - Pos: {x: 1, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 2, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 3, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 4, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 5, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 6, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 7, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 8, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 9, y: 1, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+    - LayerIndex: 2
+      Tiles:
+      - Pos: {x: 0, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+      - Pos: {x: 1, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 2, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 3, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 4, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 5, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 6, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 7, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 8, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 9, y: 2, z: 0}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+      - Pos: {x: 0, y: 2, z: 1}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 1}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 1}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 2}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 2}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 2}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 3}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 3}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 3}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 4}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 4}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 4}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 5}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 5}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 5}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 6}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 6}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 6}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 7}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 7}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 7}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 8}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 1, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 2, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 3, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 4, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 5, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 6, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 7, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 8, y: 2, z: 8}
+        IsEdgeTile: 0
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: c804664484518e74e851e6db5faff5c2, type: 2}
+        neighbours: 8
+      - Pos: {x: 9, y: 2, z: 8}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 0, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+      - Pos: {x: 1, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 2, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 3, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 4, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 5, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 6, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 7, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 8, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 5
+      - Pos: {x: 9, y: 2, z: 9}
+        IsEdgeTile: 1
+        IsSelected: 0
+        Obj: {fileID: 0}
+        Render: {fileID: 0}
+        filter: {fileID: 0}
+        defaultMaterial: {fileID: 2100000, guid: ff3962da536483841a1e6c83db116b10, type: 2}
+        neighbours: 3
+  ExpandMaps: []
+--- !u!114 &3320818929472399183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61152638213012822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375e279dfefcbb54fa702de1e7265f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerDatas:
+  - SpawnPosition: {x: 6, y: 1, z: 4}
+  - SpawnPosition: {x: 4, y: 1, z: 4}
+  - SpawnPosition: {x: 2, y: 1, z: 4}
+--- !u!114 &8647392366112261400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61152638213012822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888a32bbcd2c3fe43b3906c2884f47b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemies:
+  - PathIndexes: []
+    startPosition: {x: 2, y: 1, z: 7}
+  - PathIndexes: []
+    startPosition: {x: 4, y: 1, z: 7}
+  - PathIndexes: []
+    startPosition: {x: 6, y: 1, z: 7}
